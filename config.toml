@@ -10,10 +10,10 @@ build-mindetach-module = true
 
 [YouTube]
 enabled = true                                                        # add 'enabled = false' key to entries to not build them
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
+build-mode = "apk"                                                   # 'both', 'apk' or 'module'
 excluded-patches = "debugging"                                        # whitespace seperated list of patches to exclude
-included-patches = ""                                            # whitespace seperated list of patches to include
-version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
+included-patches = "client-spoof custom-branding general-ads microg-support minimized-playback video-ads tablet-mini-player"                                            # whitespace seperated list of patches to include
+version = "17.49.37"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 microg-patch = "microg-support"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
